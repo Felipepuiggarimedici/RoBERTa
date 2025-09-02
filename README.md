@@ -96,7 +96,7 @@ All memory-intensive experiments were conducted on a **Linux HPC** (High Perform
 ---
 ## Dataset
 
-The dataset used in this work was constructed from the **Immune Epitope Database (IEDB)** [^1], specifically from the full ligand dataset available under the export title `mhc_ligand_full` in CSV format. To create a high-confidence dataset suitable for training and evaluating peptide–HLA binding prediction models, several filters were applied:
+The dataset used in this work was constructed from the **Immune Epitope Database (IEDB)**, specifically from the full ligand dataset available under the export title `mhc_ligand_full` in CSV format. To create a high-confidence dataset suitable for training and evaluating peptide–HLA binding prediction models, several filters were applied:
 
 * Only linear, high-quality peptides of human origin (**Homo sapiens**) associated with HLA class I molecules were retained.  
 * Entries were restricted to those generated using **mass spectrometry (MS)** and derived from **single-allelic experimental setups**.
