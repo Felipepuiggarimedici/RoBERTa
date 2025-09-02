@@ -102,7 +102,6 @@ The dataset used in this work was constructed from the **Immune Epitope Database
 * Entries were restricted to those generated using **mass spectrometry (MS)** and derived from **single-allelic experimental setups**.
 
 **Mass spectrometry (MS)** is an experimental technique that identifies and quantifies molecules by measuring their mass-to-charge ratio, a physical quantity unique to each molecule. In immunology, it is used to detect peptides presented by HLA molecules.
-```
 
 ## Repository Structure
 
