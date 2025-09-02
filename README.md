@@ -39,10 +39,9 @@ The model's power comes from two key components:
 
 * **Multi-Head Attention**: This mechanism allows the model to simultaneously focus on different parts of the peptide sequence to understand how different amino acids relate to each other. The attention score is calculated by:
 
-    $$
-    \text{Attention}(Q,K,V)=\text{softmax}(\frac{QK^T}{\sqrt{d_k}})V
-    $$
-
+<p>
+Attention(Q,K,V) = softmax(QK^T / sqrt(d_k)) V
+</p>
 * **Positional Embedding**: Since the attention mechanism doesn't inherently understand the order of amino acids, positional embeddings are used to inject this information. Unlike the original Transformer model, the positional embedding of BERT-based models is built from learnable parameters. The special token **[SEP]** marks the end of the sequence.
 
 The model also uses **GELU activation functions** in the feed-forward layers and a dropout rate of 0.1.
