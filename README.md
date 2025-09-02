@@ -157,8 +157,5 @@ All memory-intensive experiments were conducted on a **Linux HPC** (High Perform
 
 ## Contact
 
-For questions about the code or data, open an issue on the GitHub repository or contact the author via the repository profile.
-
----
-
-**End of README**
+felipepuiggarimedici@gmail.com
+https://www.linkedin.com/in/felipe-puiggari-medici-248855207/
