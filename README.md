@@ -99,7 +99,6 @@ The project's file structure is organized to facilitate systematic experimentati
 * **`results/`**: A general folder for various saved results.
 * **`netmhcbenchmark/`**: Contains the results from the **NetMHCpan-4.1** external validation.
 * **`modelsPeptideOnly/HLA_HLA-A_02-01/`**: The directory where the final trained model is saved, using the **`safetensors`** format.
-* **`models/`**, **`models2/`**, **`models3/`**: These folders store models from different hyperparameter sweeps.
 * **`hyperparamData/`**: A CSV file with loss information from the hyperparameter sweeps.
 * **`generatedPeptides/HLAA0201/`**: The location of the final, important `generatedPeptides.csv` file, which contains the library of generated peptides.
 
