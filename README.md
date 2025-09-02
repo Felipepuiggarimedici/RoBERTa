@@ -135,8 +135,6 @@ All memory-intensive experiments were conducted on a **Linux HPC** (High Perform
 * Matplotlib  
 * Linux HPC environment (for memory-intensive model training and generation)
 
-(Include exact package versions in a `requirements.txt` or `environment.yml` for reproducibility.)
-
 ---
 
 ## Reproducibility Notes
