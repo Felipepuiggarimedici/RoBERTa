@@ -94,6 +94,15 @@ All memory-intensive experiments were conducted on a **Linux HPC** (High Perform
 * `lossAnalysis.py` — Utilities for analyzing training/validation loss curves.
 
 ---
+## Dataset
+
+The dataset used in this work was constructed from the **Immune Epitope Database (IEDB)** [^1], specifically from the full ligand dataset available under the export title `mhc_ligand_full` in CSV format. To create a high-confidence dataset suitable for training and evaluating peptide–HLA binding prediction models, several filters were applied:
+
+* Only linear, high-quality peptides of human origin (**Homo sapiens**) associated with HLA class I molecules were retained.  
+* Entries were restricted to those generated using **mass spectrometry (MS)** and derived from **single-allelic experimental setups**.
+
+**Mass spectrometry (MS)** is an experimental technique that identifies and quantifies molecules by measuring their mass-to-charge ratio, a physical quantity unique to each molecule. In immunology, it is used to detect peptides presented by HLA molecules.
+```
 
 ## Repository Structure
 
@@ -152,7 +161,7 @@ All memory-intensive experiments were conducted on a **Linux HPC** (High Perform
 4. Vita, R., Overton, J. A., Greenbaum, J. A., Ponomarenko, J., Clark, J. D., et al. (2019). The Immune Epitope Database (IEDB). Nucleic Acids Research.  
 5. Wang, J., Shen, T., Xie, T., & Zhao, Y. (2019). BERT as a Markov Random Field Language Model.  
 6. Bojchevski, A., et al. (2021). AntiBERTa: A generative model for antibody variable regions. arXiv:2104.09945.
-
+7. Vita, R., et al. (2019). The Immune Epitope Database (IEDB). *Nucleic Acids Research*.  
 ---
 
 ## Contact
